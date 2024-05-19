@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+
+body {
+    background-image: url(''); /* Initial background image */
+    background-size: cover;
+    transition: background-image 0.3s ease; /* Smooth transition effect */
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    color: white;
+}
+
+#clock {
+    color: white;
+    font-size: 57px;
+}
+
+#greeting {
+    color: white;
+    font-size: 28px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    color: white;
+    font-weight: bold;
+    background: rgba(0, 0, 0, .8);
+    border: 1px solid black;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#weather-img {
+    width: 30px;
+}
+
+#second-line {
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+
+    width: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    text-align: start;
+    background: rgba(100, 100, 100, .5);
+    margin-bottom: 3px;
+
+    display: inline-block;
+}
+
+#main-list {
+    border: 5px solid white;
+    margin: 3px;
+}
+
+#sub-list {
+    border: 1px solid white;
+    margin: 3px;
+}
+
+.strikethru {
+    text-decoration: line-through;
+}
